@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sf_pro_display,sans-serif;;
+}
+
+.container{
+    padding:  1.5rem ;
+}
+
+header{
+    background-color: #2626260a;
+    font-size: 14px;
+    font-weight: 300;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.first-1 .main{
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1;
+    font-weight: 500;
+    padding: 6px 12px;
+    
+}
+ .main:hover {
+    background-color: #0056c1;
+    color: white;
+}
+
+.first-1 a{
+    margin-left: 1rem;
+    color: #666666;
+}
+
+
+
+.first-2{
+    display: flex;
+    justify-content: right;
+    margin: -1rem;
+    padding-right: 40px;
+    
+}
+
+.nav a{
+    margin-right: 1rem;
+}
+
+.nav i{
+    padding: 5px;
+}
+
+
+.nav .tel{
+    color: #666666;
+    margin: 0 0 0 4px;
+}
+
+
+
+.logo-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+}
+
+.photo span{
+    padding: 0 10px;
+
+}
+
+.photo a, span{
+    color: #262626;
+}
+.photo a{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.photo .opacity{
+    opacity: .5;
+}
+
+ .opacity:hover{
+    opacity: 1;
+}
+
+.photo img{
+    height: 50px;
+    padding: 0 2rem;
+}
+
+
+
+.nav-2 span{
+    color: #0056c1;
+    margin: 0 0 0 8px;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+
+.nav-2 i{
+    display: none;
+}
+
+header .none,.icon-3{
+    display: none;
+}
+
+@media(max-width:576px){
+    .nav-2 i {
+        display: block;
+        font-size: 40px;
+        color: #262626;
+        opacity: .7;
+        
+    }
+
+    .container{
+        padding: 22px 20px ;
+    }
+
+    .icon-3{
+        background: url(../../img/icons/select-arrow-down.svg) 50% no-repeat;
+        display: inline-flex;
+        transform: rotate(180deg);
+        
+    }
+   header .none {
+        display: inline-block
+    
+    }
+
+   .photo a{
+    display: none;
+   }
+
+   .photo span{
+    display: none;
+   }
+
+    .first-1 a{
+        display: none;
+    }
+
+    .nav-2 a{
+        display: none;
+    }
+
+    .nav .icon-2{
+        display: none;
+    }
+}
+
+
+
+
+
